@@ -10,7 +10,7 @@ export interface SideNavToggle{
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'templateAdmin';
+  title = 'Lumen Fidei Radio';
   isSideNavCollapsed:boolean = true;
   screenWidth:number = 0;
 

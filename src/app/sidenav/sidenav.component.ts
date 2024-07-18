@@ -11,6 +11,7 @@ export interface SideNavToggle{
   styleUrls: ['./sidenav.component.scss']
 })
 export class SidenavComponent implements OnInit {
+  title:string = 'LUMEN FIDEI RADIO';
   @HostListener('window:resize', ['$event'])
   onResize(event:any){
     this.screenWidth = window.innerWidth;

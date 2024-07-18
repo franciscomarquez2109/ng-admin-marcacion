@@ -5,13 +5,8 @@ export const navDataLink = [
         label: 'Inicio'
     },
     {
-        routerlink: 'productos',
-        icon: 'fal fa-box-open',
-        label: 'Productos'
-    },
-    {
-        routerlink: 'graficos',
-        icon: 'fal fa-chart-bar',
-        label: 'Graficos'
+        routerlink: 'marcacion',
+        icon: 'fal fa-calendar',
+        label: 'Asistencia'
     }
 ]
