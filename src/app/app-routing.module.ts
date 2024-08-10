@@ -4,13 +4,12 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 
 const routes: Routes = [
   {
-    path: '',
-    redirectTo: 'inicio',
-    pathMatch: 'full'
+    path: 'login',
+    loadComponent: ()=> import('../app/login/login.component').then(c => c.LoginComponent)
   },
   {
-    path: 'inicio',
-    component: DashboardComponent
+    path: '',
+    loadChildren: ()=> import('../app/main/main.module').then(m => m.MainModule)
   }
 ];
 

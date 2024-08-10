@@ -1,6 +1,6 @@
 export const navDataLink = [
     {
-        routerlink: 'inicio',
+        routerlink: 'dashboard',
         icon: 'fal fa-home',
         label: 'Inicio'
     },
